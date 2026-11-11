@@ -1,0 +1,15 @@
+# Add-Sub
+
+A Verilog implementation of the HDLBits **Module addsub** exercise.
+
+## Overview
+
+The circuit performs addition or subtraction on two 32-bit inputs. The `sub` control signal selects the operation.
+
+## Implementation
+
+The design uses two 16-bit adder modules to produce the 32-bit result. When subtraction is selected, the second input is inverted and the carry-in is set, implementing two’s-complement subtraction.
+
+## Diagram
+
+See [`solution_addsub.jpeg`](solution_addsub.jpeg) for the circuit diagram.
