@@ -1,0 +1,15 @@
+# IC_7458
+
+A Verilog implementation of the IC 7458 logic circuit from HDLBits.
+
+## Implementation
+
+The solution describes the circuit using Verilog and combines its logic gates to produce the required output.
+
+## Diagram
+
+See [`IC_7458.png`](IC_7458.png) for the circuit block diagram.
+
+## Source
+
+[HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)
